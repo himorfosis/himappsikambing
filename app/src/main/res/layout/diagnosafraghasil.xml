@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penyakit dengan nilai probabilitas tertinggi"
+            android:textColor="@color/hitam"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/nilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hitam"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/penyakit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hitam"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonselector"
+        android:text="Detail penyakit"
+        android:textColor="@color/putih"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/batas"
+        android:layout_marginBottom="15dp"
+        >
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai probabilitas setiap penyakit"
+        android:textColor="@color/hitam"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <ListView
+        android:id="@+id/listhasil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+
+    </ListView>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+        <Button
+            android:id="@+id/simpan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/hijau"
+            android:text="Simpan"
+            android:textColor="@color/putih"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        </LinearLayout>
+
+</LinearLayout>

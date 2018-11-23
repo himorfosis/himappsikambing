@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoPenyakitFragHome"
+    android:layout_marginRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/scabies"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scabies"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/mastitis"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mastitis"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/pneumonia"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pneumonia"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/hipokalsemia"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hipokalsemia"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/pinkeye"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pink Eye"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/kembung"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembung atau Bloat"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp" />
+
+    <LinearLayout
+        android:id="@+id/cacingan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cacingan"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/orf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orf atau Keropang Mulut"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/antraks"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Antraks"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/kukubusuk"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuku Busuk"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/keguguran"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brucellosis atau Keguguran"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

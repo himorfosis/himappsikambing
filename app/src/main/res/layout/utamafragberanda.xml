@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginRight="40dp"
+    android:layout_marginLeft="40dp"
+    >
+
+    <Button
+        android:id="@+id/diagnosa"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonselector"
+        android:text="Diagnosa"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/infopenyakit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonselector"
+        android:text="Info Penyakit"
+        android:textColor="@color/putih"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/riwayat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonselector"
+        android:text="Riwayat"
+        android:textColor="@color/putih"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/keluar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonselector"
+        android:text="Keluar"
+        android:textColor="@color/putih"
+        android:textStyle="bold"/>
+
+</LinearLayout>

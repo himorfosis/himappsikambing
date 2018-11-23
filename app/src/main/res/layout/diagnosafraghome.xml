@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kepala"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/kepala_kambing1"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kepala"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/kaki"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/kaki_kambing1"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kaki"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/reproduksi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/reproduksi_kambing"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reproduksi"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/badan"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/badan_kambing"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Badan"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/ambing"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ambing_kambing"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ambing (Susu)"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/lainlain"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lain_lain"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lain - Lain"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
